@@ -15,7 +15,6 @@ function App() {
     setInputB(event.target.value);
   }
   /* You will need some function to handle the key pressed and button events */
-   
   function handleCompute() {
     const numA = parseFloat(onA);
     const numB = parseFloat(onB);
