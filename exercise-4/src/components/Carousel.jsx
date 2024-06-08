@@ -10,7 +10,6 @@ export const Carousel = ({ images }) => {
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
-
   const NextImage = () => {
     setCurrentImage((prevIndex) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
